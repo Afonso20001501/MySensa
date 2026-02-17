@@ -8,6 +8,13 @@
   @apply block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-slate-800 transition;
 }
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
 @layer utilities {
      .animate-in {
