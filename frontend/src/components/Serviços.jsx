@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 
+
+
 const services = [
   {
     title: "Marketing Digital Estratégico",
@@ -64,6 +66,8 @@ export default function Features() {
     );
     window.open(`https://wa.me/${phone}?text=${message}`, "_blank");
   };
+
+
 
   return (
     <section

@@ -45,14 +45,7 @@ export default function Navbar({ scrolled, openQuote }) {
               </a>
             ))}
 
-            {/* LANGUAGE SWITCHER */}
-            <button
-              onClick={() => setLanguage(language === 'pt' ? 'en' : 'pt')}
-              className="flex items-center gap-1 text-gray-300 hover:text-white text-sm transition"
-            >
-              <Globe className="w-4 h-4" />
-              {language.toUpperCase()}
-            </button>
+           
 
             {/* CTA BUTTON */}
             <button
@@ -64,6 +57,7 @@ export default function Navbar({ scrolled, openQuote }) {
             >
               {t.nav.cta}
             </button>
+            
           </div>
 
           {/* MOBILE BUTTONS */}
