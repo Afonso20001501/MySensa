@@ -45,7 +45,6 @@ export default function Navbar({ scrolled, openQuote }) {
               </a>
             ))}
 
-           
 
             {/* CTA BUTTON */}
             <button
@@ -62,15 +61,7 @@ export default function Navbar({ scrolled, openQuote }) {
 
           {/* MOBILE BUTTONS */}
           <div className="md:hidden flex items-center gap-3">
-            {/* LANGUAGE */}
-            <button
-              onClick={() => setLanguage(language === 'pt' ? 'en' : 'pt')}
-              className="flex items-center gap-1 text-gray-300 hover:text-white text-sm transition"
-            >
-              <Globe className="w-4 h-4" />
-              {language.toUpperCase()}
-            </button>
-
+          
             {/* MENU */}
             <button
               className="p-2 rounded-full bg-slate-950/50 backdrop-blur-lg text-gray-300 hover:bg-slate-950/70 transition"
