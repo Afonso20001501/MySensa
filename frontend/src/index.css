@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+.nav-link {
+  @apply text-gray-300 hover:text-white text-sm lg:text-base transition;
+}
+
+.mobile-link {
+  @apply block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-slate-800 transition;
+}
+
+
+@layer utilities {
+     .animate-in {
+        animation-fill-mode:both;
+     }
+
+
+     .slide-in-from-top {
+        animation-name:slideInFromTop;
+     }
+
+   
+    .slide-in-from-bottom {
+        animation-name:slideInFromBottom;
+        }
+
+     .duration-300 {
+        animation-duration:300ms;
+     }
+
+    .duration-500 {
+    animation-duration:400ms;
+    }
+
+      .duration-700 {
+    animation-duration:700ms;
+    }
+
+    .delay-100 {
+        animation-delay:100ms;
+     }
+
+    
+    .delay-200 {
+        animation-delay:200ms;
+     }
+     
+      .delay-300 {
+        animation-delay:300ms;
+     }
+}
+
+@keyframes slideInFromBottom {
+    from {
+
+        opacity: 0;
+        transform: translate(1rem);
+    }
+
+    to {
+
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
+@keyframes slideInFromTop {
+    from {
+
+        opacity: 0;
+        transform: translate(-1rem);
+    }
+
+    to {
+
+        opacity: 1;
+        transform: translate(0);
+    }
+}
