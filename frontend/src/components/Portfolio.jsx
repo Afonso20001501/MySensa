@@ -51,7 +51,7 @@ export default function Portfolio() {
         <div className="text-center mb-20">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-semibold mb-6">
             <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-              Projetos que
+              Projectos que
             </span>
             <br />
             <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
@@ -60,7 +60,7 @@ export default function Portfolio() {
           </h2>
 
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            Conheça alguns dos projetos que transformaram marcas e impulsionaram negócios.
+            Conheça alguns dos projectos que transformaram marcas e impulsionaram negócios.
           </p>
         </div>
 

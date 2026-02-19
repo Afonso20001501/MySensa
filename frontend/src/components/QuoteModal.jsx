@@ -85,7 +85,7 @@ export default function QuoteModal({ isOpen, onClose }) {
               </h2>
 
               <p className="text-white/80 text-sm mt-2">
-                Conte-nos sobre o seu projeto e responderemos via WhatsApp.
+                Conte-nos sobre o seu projecto e responderemos via WhatsApp.
               </p>
             </div>
 
@@ -135,10 +135,10 @@ export default function QuoteModal({ isOpen, onClose }) {
 
               {/* Detalhes */}
               <div>
-                <p className="text-sm text-gray-400 mb-2">Detalhes do Projeto</p>
+                <p className="text-sm text-gray-400 mb-2">Detalhes do Projecto</p>
                 <textarea
                   rows="4"
-                  placeholder="Descreva objetivos, prazo estimado, referências..."
+                  placeholder="Descreva objectivos, prazo estimado, referências..."
                   value={details}
                   onChange={(e) => setDetails(e.target.value)}
                   className="w-full p-4 rounded-xl bg-black/40 border border-white/10 focus:border-blue-500 outline-none text-sm text-white resize-none"

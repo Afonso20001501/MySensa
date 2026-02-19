@@ -6,8 +6,8 @@ import {
 } from "@phosphor-icons/react";
 
 const footerLinks = {
-  Produto: ["Funcionalidades", "Preços", "Segurança", "Roadmap", "Atualizações"],
-  Empresa: ["Sobre Nós", "Blog", "Carreiras", "Contato"],
+  Produto: ["Funcionalidades", "Preços", "Segurança", "Roadmap", "Actualizações"],
+  Empresa: ["Sobre Nós", "Blog", "Carreiras", "Contacto"],
   Recursos: ["Central de Ajuda", "Documentação", "Guias"],
   Legal: ["Privacidade", "Termos de Serviço", "Cookies"],
 };
@@ -41,17 +41,38 @@ export default function Footer() {
             </p>
 
             {/* Social */}
+            {/* Social */}
             <div className="flex space-x-4">
-              {[Mail, FacebookLogo, InstagramLogo, WhatsappLogo].map((Icon, index) => (
+              {[
+                {
+                  icon: Mail,
+                  link: "mailto:seuemail@dominio.com",
+                },
+                {
+                  icon: FacebookLogo,
+                  link: "https://facebook.com/profile.php?id=100063979333202",
+                },
+                {
+                  icon: InstagramLogo,
+                  link: "https://instagram.com/sensacional_24/",
+                },
+                {
+                  icon: WhatsappLogo,
+                  link: "https://wa.me/244952670003",
+                },
+              ].map(({ icon: Icon, link }, index) => (
                 <a
                   key={index}
-                  href="#"
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 bg-white/5 border border-white/10 rounded-xl hover:bg-blue-500/20 hover:border-blue-500/40 transition-all duration-300 hover:scale-110"
                 >
                   <Icon size={18} />
                 </a>
               ))}
             </div>
+
           </div>
 
           {/* Links */}

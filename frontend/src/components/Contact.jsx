@@ -14,7 +14,7 @@ export default function Contact() {
             </span>
             <br />
             <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-              O Seu Próximo Projeto
+              O Seu Próximo Projecto
             </span>
           </h2>
 
@@ -109,7 +109,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4 className="text-lg font-semibold text-white">Email</h4>
-                <p className="text-gray-400">contacto@suaempresa.com</p>
+                <p className="text-gray-400">contacto@sensacional.store</p>
               </div>
             </div>
 
@@ -119,7 +119,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4 className="text-lg font-semibold text-white">Telefone</h4>
-                <p className="text-gray-400">+244 900 000 000</p>
+                <p className="text-gray-400">+244 952 670 003</p>
               </div>
             </div>
 

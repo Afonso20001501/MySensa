@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import { useState, useEffect } from 'react';
 import Portfolio from './components/Portfolio';
 import QuoteModal from "./components/QuoteModal";
+import FloatingButtons from './components/FloatingButtons';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -23,6 +24,8 @@ function App() {
 
   return (
     <div className="min-h-screen bg-slate-950 text-white">
+
+      <FloatingButtons />
 
       <Navbar 
         scrolled={scrolled} 

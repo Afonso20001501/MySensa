@@ -156,7 +156,7 @@ export default function Pricing() {
           <p className="text-gray-400 text-lg">
             Precisa de uma solução personalizada?{" "}
             <a
-              href="#"
+              href="https://wa.me/244952670003"
               className="text-blue-400 hover:text-blue-300 transition-colors"
             >
               Fale com a nossa equipa comercial
